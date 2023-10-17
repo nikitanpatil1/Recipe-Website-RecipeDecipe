@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=kalam@700,400,300&display=swap" rel="stylesheet">
+    <title>Recipe Decipe</title>
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/mid_img.css">
+    <link rel="stylesheet" href="./styles/components/about.css">
+    <link rel="stylesheet" href="./styles/components/contact.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/mobile.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+</head>
+<body>
+ <header class="header container">
+    <nav class="header__nav">
+        <div class="header__logo">
+            RecipeDecipe``
+        </div>
+        <div >
+            <ul class="header__menu" >
+                <li>
+                    <a class="header__link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="header__link" href="recipes.html">Recipes</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+            </button>
+        </div>
+    </nav>
+
+     <!-- Mobile Navigation -->
+     <div class="mobile-nav">
+        <nav>
+           <ul class="mobile-nav__menu">
+            <li>
+                <a class="mobile-nav__link" href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="mobile-nav__link">About</a>
+            </li>
+            <li>
+                <a href="recipes.html" class="mobile-nav__link">Recipes</a>
+            </li>
+            <li>
+                <a href="#contact" class="mobile-nav__link">Contact</a>
+            </li>
+           </ul> 
+        </nav>
+
+    </div>
+    <!-- End of Mobile Navigation -->
+ </header>
+
+
+ <main>
+    <section id="home" class="hero container">
+        <div class="hero__divleft" >
+          <div class="hdivleft__sub">
+            <h2 class="hero__title">Welcome to</h2>
+            <h1 class="hero__maintitle">RecipeDecipe</h1>
+          </div>
+         <p class="hero__description">Coz <strong>taste matters</strong>...and to achive that <strong>right recipe matters!!</strong></p>
+        </div>
+
+        <div class="hero__divright">
+         <img class="hero__img hero__imggrid1" src="./images/hero_img1.jpg" alt="Image of cooking food">
+         <img class="hero__img hero__imggrid2" src="./images/hero_img2.jpg" alt="Image of recipe book">
+         <img class="hero__img hero__imggrid3" src="./images/hero_img3.jpg" alt="Image of various ingredients">
+        </div>
+    </section>
+
+
+    <section id="about" class="about container section">
+        <div class="about__content-left">
+           <h2 class="about__title">About</h2>
+
+           <div class="about__description-box">
+               <p class="about__description">A recipe is simply defined as a set of instructions with a list of ingredients used to prepare a particular food, dish or drink. Well–constructed and kitchen–tested recipes help both cooking novices and experienced chefs prepare delicious and nutritious meals for themselves and others.</p>
+               <p class="about__description">Good recipes help with meal planning, while keeping time, money, food seasonality and other considerations in mind. Imparting the joy of cooking and expanding the culinary skill set of the at–home cook can help improve the diet, save money and enhance social connections, helping to create a positive impact on health and overall well–being.</p>
+               <p class="about__description">So we are here to provide best recipes through RecipeDecipe. Have a look by clicking on the button provided. </p>
+           </div>
+           
+        </div>
+        <div class="about__content-right">
+            <p class="about__btn-description"><strong>Click to check Recipies!!</strong></p>
+            <a class="about__btn btn" href="recipes.html">Recipes</a>
+        </div>
+    </section>
+
+
+    <section class="mid__img container section">
+        <div>
+            <img class="mid__img1" src="./images/mid_img1.jpg" alt="Image of Baguette recipe">
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact container section">
+        <div class="contact__content-left">
+            <h2 class="contact__title">Let's Connect</h2>
+            <p class="contact__description"> Do share your opinions and comments!!</p>
+        </div>
+        <div class="contact__content-right">
+            <form class="contact__form" action="#" >
+                
+                <fieldset>
+                    <legend>Your Name</legend>
+                    <input type="text" name="name" autocomplete="off">
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Your Email ID</legend>
+                    <input type="email" name="email" autocomplete="off">
+                </fieldset>
+                <fieldset>
+                    <legend>Comments</legend>
+                    <textarea name="textarea" id="comments" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button  class="contact__form-btn btn">submit</button>
+            </form>
+        </div>
+    </section>
+
+ </main>
+
+
+ <footer class="footer container section">
+    <p>
+        ~ RecipeDecipe  -Nikita Patil ~
+    </p>
+    <p>*This Website is for course project purpose so all the information is taken from google.</p>
+
+ </footer>
+
+
+ <script src="./src/main.js"></script>
+
+</body>
+</html>

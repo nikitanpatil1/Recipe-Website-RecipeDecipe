@@ -1,0 +1,237 @@
+.pizza__hero{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.pizza__img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 15px;
+    box-shadow: var(--clr-orange900) 0px 2px 8px 0px;
+}
+
+.pizza__title{
+    text-transform: capitalize;
+    font-size: var(--size-4xl);
+    color: var(--clr-orange900);
+}
+
+.pizza__ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   
+}
+
+.pizza__ingredients-title{
+    text-transform: capitalize;
+    font-size: var(--size-xl);
+    color: var(--clr-orange900);
+}
+
+.pizza__ingredients-items{
+    font-size: var(--size-sm);
+    color: var(--clr-yellow800);
+}
+
+.pizza__process{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   
+}
+
+.pizza__process-title{
+    text-transform: capitalize;
+    font-size: var(--size-xl);
+    color: var(--clr-orange900);
+}
+
+.pizza__ingredients ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.pizza__process ol{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.pizza__process-points{
+    text-align: justify;
+    font-size: var(--size-sm);
+    color: var(--clr-yellow800);
+}
+
+.pizza__process-points::marker{
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    font-size: var(--size-sm);
+    color: var(--clr-yellow800);
+    margin-bottom: 1rem ;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+
+    .pizza__title{
+        font-size: var(--size-5xl);
+    }
+ 
+    
+    .pizza__ingredients-title{
+        font-size: var(--size-2xl);
+    }
+    
+    .pizza__ingredients-items{
+        font-size: var(--size-base);
+    }
+    
+    
+    .pizza__process-title{
+
+        font-size: var(--size-2xl);
+
+    }
+    
+    
+    .pizza__process-points{
+
+        font-size: var(--size-base);
+
+    }
+
+   
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .pizza__hero{
+    gap: 3rem;
+    }
+
+    .pizza__img{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+        opacity: 0.7;
+        border-radius: 15px;
+        box-shadow: var(--clr-orange900) 0px 2px 8px 0px;
+    }
+
+    .pizza__title{
+
+        font-size: var(--size-6xl);
+        width: 872px;
+        align-self: center;
+  
+    }
+    
+    .pizza__ingredients{
+
+        gap: 1rem;
+        width: 872px;
+        align-self: center;
+       
+    }
+    
+    .pizza__ingredients-title{
+  
+        font-size: var(--size-3xl);
+
+    }
+    
+    .pizza__ingredients-items{
+        font-size: var(--size-lg);
+
+    }
+    
+    .pizza__process{
+
+        gap: 1rem;
+        width: 872px;
+        align-self: center;
+       
+    }
+    
+    .pizza__process-title{
+
+        font-size: var(--size-3xl);
+
+    }
+    
+    
+    .pizza__process-points{
+
+        font-size: var(--size-lg);
+
+    }
+    
+    .footer{
+        size: var(--size-base);
+    }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+    
+        .pizza__title{
+    
+            font-size: var(--size-7xl);
+      
+        }
+        
+
+        
+        .pizza__ingredients-title{
+      
+            font-size: var(--size-4xl);
+    
+        }
+        
+        .pizza__ingredients-items{
+            font-size: var(--size-xl);
+    
+        }
+        
+
+        
+        .pizza__process-title{
+    
+            font-size: var(--size-4xl);
+    
+        }
+        
+        
+        .pizza__process-points{
+    
+            font-size: var(--size-xl);
+    
+        }
+
+        .footer{
+            size: var(--size-lg);
+        }
+        
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=kalam@700,400,300&display=swap" rel="stylesheet">
+    <title>Kimbap</title>
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/recipe_style/gimbap.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/mobile.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+</head>
+<body>
+    <header class="header container">
+        <nav class="header__nav">
+            <div class="header__logo">
+                RecipeDecipe``
+            </div>
+            <div >
+                <ul class="header__menu" >
+                    <li>
+                        <a class="header__link" href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="header__link" href="recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="header__bars">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                      
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation -->
+     <div class="mobile-nav">
+        <nav>
+           <ul class="mobile-nav__menu">
+            <li>
+                <a class="mobile-nav__link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="recipes.html" class="mobile-nav__link">Recipes</a>
+            </li>
+            <li>
+                <a href="index.html#contact" class="mobile-nav__link">Contact</a>
+            </li>
+           </ul> 
+        </nav>
+  
+    </div>
+    <!-- End of Mobile Navigation -->
+    </header>
+    
+    <section class="gimbap__hero container">
+        
+        
+        <img class="gimbap__img" src="./images/gimbap_img2.jpg" alt="Gimbap"  >
+        <h1 class="gimbap__title">Fried Tofu Gimbap</h1>
+        <div class="gimbap__ingredients">
+            <h2 class="gimbap__ingredients-title">ingredients</h2>
+            <ul class="gimbap__ingredients-list">
+                <li class="gimbap__ingredients-items">dried seaweed for kimbap 
+                    <strong>6piece</strong></li>
+                <li class="gimbap__ingredients-items">thick soy sauce <strong> 1T</strong></li>
+                <li class="gimbap__ingredients-items">square fish cake 
+                    <strong> 1piece</strong></li>
+
+                <li class="gimbap__ingredients-items">Carrot 
+                    <strong>1ea</strong></li>
+                <li class="gimbap__ingredients-items">Cucumber 
+                    <strong>1ea</strong></li> 
+                <li class="gimbap__ingredients-items">Salt 
+                    <strong> little</strong></li>
+                <li class="gimbap__ingredients-items">Oligosaccharide <strong> 1T</strong></li>
+                <li class="gimbap__ingredients-items">Cooking oil <strong> 3T</strong></li>
+                <li class="gimbap__ingredients-items">Sesame <strong>1T</strong> </li>
+                                <li class="gimbap__ingredients-items">Fried tofu <strong> 12ea</strong></li>
+                <li class="gimbap__ingredients-items">Pickled radish <strong> 6ea</strong></li>
+                <li class="gimbap__ingredients-items">Sesame oil<strong> 1T</strong></li> 
+                <li class="gimbap__ingredients-items">instant rice 
+                    <strong>3bowl</strong></li>
+            </ul>
+        </div>
+        <div class="gimbap__process">
+            <h2 class="gimbap__process-title">Process</h2>
+            
+            <ol class="gimbap__process-list">
+                <li class="gimbap__process-points">Chop carrots, cucumbers, and fried tofu</li>
+                <li class="gimbap__process-points">Put 3T of cooking oil in a pan and stir-fry carrots</li>
+                <li class="gimbap__process-points">Remove the stir-fried carrots and stir-fry the cucumbers</li>
+                <li class="gimbap__process-points">Stir-fry fish cake in a pan, add fried tofu, 1T of soy sauce, 1T of oligosaccharide, and stir-fry it</li>
+                <li class="gimbap__process-points">Put 3 bowls of rice, 1T of sesame oil, 1T of sesame seeds, and a little bit of salt in a bowl and mix them well</li>
+                <li class="gimbap__process-points">Spread the rice about 2/3 thinly on the seaweed for kimbap, place all the ingredients on top and roll</li>
+                <li class="gimbap__process-points">Cut it into bite-size pieces</li>
+                
+            </ol>
+        </div>
+
+    </section>
+
+    <footer class="footer container section">
+        <p>
+            ~ RecipeDecipe  -Nikita Patil ~
+        </p>
+        <p>*This Website is for course project purpose so all the information is taken from google.</p>
+    </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>

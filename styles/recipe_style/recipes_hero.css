@@ -1,0 +1,134 @@
+.recipes__hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 2rem;
+    
+}
+
+.recipes__hero-title{
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: var(--size-4xl);
+    color: var(--clr-orange900);
+   
+}
+
+.recipes__hero-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.recipes__hero-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.recipes__hero-img{
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: var(--clr-orange900) 0px 2px 8px 0px;
+}
+
+.recipes__hero-btn{
+    font-size: var(--size-sm);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {
+    
+} */
+
+/* sm */
+@media (min-width: 640px) {
+   
+    .recipes__hero-title{
+        font-size: var(--size-5xl);
+       
+    }
+    
+    .recipes__hero-btn{
+        font-size: var(--size-base);
+    
+    }
+    
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    
+    .recipes__hero{
+        gap: 4rem;
+        
+    }
+
+
+    .recipes__hero-title{
+        font-size: var(--size-6xl);
+       
+    }
+    
+    .recipes__hero-content{
+        gap: 2.5rem;
+    }
+    
+    
+    .recipes__hero-img{
+        width: 19rem;
+        height: 15rem;
+    }
+    
+    .recipes__hero-btn{
+        font-size: var(--size-lg);
+    
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .recipes__hero-img{
+        width: 21rem;
+        height: 18rem;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .recipes__hero-title{
+        font-size: var(--size-7xl);
+       
+    }
+    
+    .recipes__hero-content{
+        gap: 3rem;
+    }
+    
+    
+    .recipes__hero-img{
+        width: 25rem;
+        height: 20rem;
+    }
+    
+    .recipes__hero-btn{
+        font-size: var(--size-xl);
+    
+    }
+}

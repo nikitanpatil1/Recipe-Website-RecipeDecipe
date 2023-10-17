@@ -1,0 +1,102 @@
+:root{
+    --clr-orange50:#fff7ed;
+    --clr-orange100:#ffedd5;
+    --clr-orange200:#fed7aa;
+    --clr-orange300:#fdba74;
+    --clr-orange400:#fb923c;
+    --clr-orange500:#f97316;
+    --clr-orange600:#ea580c;
+    --clr-orange700:#c2410c;
+    --clr-orange800:#9a3412;
+    --clr-orange900:#72270d;
+    --clr-orange950:#431407;
+
+    --clr-yellow100:#fef9c3;
+    --clr-yellow200:#fef08a;
+    --clr-yellow300:#fde047;
+    --clr-yellow400:#facc15;
+    --clr-yellow500:#eab308;
+    --clr-yellow600:#ca8a04;
+    --clr-yellow700:#a16207;
+    --clr-yellow800:#9a3412;
+    --clr-yellow950:#422006;
+
+    --clr-stone50:#fafaf9;
+
+    /* sizes */
+
+    --size-xxs:0.5rem;
+    --size-xs:0.75rem;
+    --size-sm:0.875rem;
+    --size-base:1rem;
+    --size-lg:1.125rem;
+    --size-xl:1.25rem;
+    --size-2xl:1.5rem;
+    --size-3xl:1.875rem;
+    --size-4xl:2.25rem;
+    --size-5xl:3rem;
+    --size-6xl:3.75rem;
+    --size-7xl:4.5rem;
+    --size-8xl:6rem;
+    --size-9xl:8rem;
+    --size-10xl:10rem;
+}
+
+
+
+*{
+   margin: 0;
+   line-height: calc(1em + 0.5rem);  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    background-color: var(--clr-orange50);
+    color:var(--clr-orange950);  
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display:block;
+    max-width: 100%;
+    user-select: none;
+}
+
+
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+a{
+    color: var( --clr-yellow400);
+}
+
+strong{
+    color: var(--clr-orange800);
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.0);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-orange500);
+    outline: 1px solid var(--clr-orange500);
+}

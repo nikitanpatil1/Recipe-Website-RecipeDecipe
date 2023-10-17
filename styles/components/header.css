@@ -1,0 +1,122 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 13;
+    background-color: var(--clr-orange50);
+    
+
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+        
+}
+
+.header__logo{
+    font-variant: small-caps;
+    font-size: var(--size-lg);
+    font-weight:600;
+    background:linear-gradient( var(--clr-orange600), var(--clr-yellow200));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.header__menu{
+    display: none;
+}
+
+.header__bars{
+    color:var(--clr-orange800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: block;
+    position: relative;
+    z-index: 9999;
+    
+}
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+   
+    .header__logo{
+      font-size: var(--size-xl);
+
+    }
+    
+    .header__menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2em;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .header__link{
+        font-size: var(--size-xs);
+        font-weight: 600;
+        color: var(--clr-orange800);
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .header__link:hover{
+        color: var(--clr-orange300);
+    }
+
+    .header__bars{
+        
+        display: none;
+    }
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .header__logo{
+        
+        font-size: var(--size-2xl);
+        
+      }
+      
+      
+      .header__link{
+          font-size: var(--size-sm);
+          
+      }
+      
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .header__logo{
+        
+        font-size: var(--size-3xl);
+        
+      }
+      
+      
+      .header__link{
+          font-size: var(--size-base);
+          
+      }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

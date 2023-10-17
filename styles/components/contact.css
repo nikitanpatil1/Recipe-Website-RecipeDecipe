@@ -1,0 +1,298 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.contact__content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__title{
+    text-transform: capitalize;
+    font-size: var(--size-2xl);
+    color: var(--clr-orange900);
+    margin-bottom: 0.3rem;
+}
+
+.contact__description{
+    font-size: var(--size-sm);
+    color: var(--clr-yellow800);
+    margin-bottom: 0.5rem;
+}
+
+
+.contact__content-right{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+
+fieldset{
+    border:1px solid var(--clr-yellow800);
+    margin-bottom: 0.5rem;
+    box-shadow: var(--clr-orange900) 0px 2px 8px 0px;
+}
+
+legend{
+    font-size: var(--size-sm);
+    font-weight: bold;
+    color: var(--clr-orange900);  
+    
+}
+
+
+input{
+    width: 100%;
+    color: var(--clr-yellow800);
+    background-color:var(--clr-orange100) ;
+    border: 1px solid var(--clr-orange100) ;
+    font-size: var(--size-sm);
+
+}
+
+input:focus{
+    background-color:var(--clr-orange50) ;
+    border: 2px solid var(--clr-orange100) ;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    color: var(--clr-yellow800);
+    background-color:var(--clr-orange100) ;
+    border: 1px solid var(--clr-orange100) ;
+    font-size: var(--size-sm);
+    resize: none;
+    
+}
+
+textarea:focus{
+    background-color:var(--clr-orange50) ;
+    border: 2px solid var(--clr-orange100) ;
+    outline: none;
+}
+
+.contact__form-btn{
+    font-size: var(--size-lg);
+    margin-top: 0.4rem;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.number{
+    border: 1px solid red;
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+    
+    
+    .contact__title{
+        
+        font-size: var(--size-3xl);
+        
+    }
+    
+    .contact__description{
+        font-size: var(--size-base);
+        
+    }
+    
+    
+    legend{
+        font-size: var(--size-base);
+        
+        
+    }
+    
+    
+    input{
+        
+        font-size: var(--size-base);
+    
+    }
+    
+  
+    
+    textarea{
+        
+        font-size: var(--size-base);
+    }
+    
+    
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+    .contact__content-right{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .contact__content-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .contact__content-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+    .contact__title{
+        margin-bottom: 0;
+    }
+    .contact__description{
+        font-size: var(--size-lg);
+        margin-bottom: 0;
+        
+    }
+    
+    legend{
+        font-size: var(--size-lg);
+        
+        
+    }
+    
+    
+    input{
+        
+        font-size: var(--size-lg);
+    
+    }
+    
+  
+    
+    textarea{
+        
+        font-size: var(--size-lg);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    
+    .contact__title{
+        
+        font-size: var(--size-4xl);
+        
+    }
+    
+    .contact__description{
+        font-size: var(--size-xl);
+        
+    }
+    
+    legend{
+        font-size: var(--size-xl);
+        
+        
+    }
+    
+    
+    input{
+        
+        font-size: var(--size-xl);
+    
+    }
+    
+  
+    
+    textarea{
+        
+        font-size: var(--size-xl);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .contact__title{
+        
+        font-size: var(--size-5xl);
+        
+    }
+    
+    .contact__description{
+        font-size: var(--size-2xl);
+        
+    }
+    
+    legend{
+        font-size: var(--size-2xl);
+        
+        
+    }
+    
+    
+    input{
+        
+        font-size: var(--size-2xl);
+    
+    }
+    
+  
+    
+    textarea{
+        
+        font-size: var(--size-2xl);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .contact__title{
+        
+        font-size: var(--size-6xl);
+        
+    }
+    
+    .contact__description{
+        font-size: var(--size-3xl);
+        
+    }
+    
+    
+    legend{
+        font-size: var(--size-3xl);
+        
+        
+    }
+    
+    
+    input{
+        
+        font-size: var(--size-3xl);
+    
+    }
+    
+  
+    
+    textarea{
+        
+        font-size: var(--size-3xl);
+    }
+}
